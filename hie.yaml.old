@@ -1,0 +1,14 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:my-servant-tut"
+
+    - path: "app/Main.hs"
+      component: "my-servant-tut:exe:my-servant-tut-exe"
+
+    - path: "test"
+      component: "my-servant-tut:test:my-servant-tut-test"
+
+dependencies:
+  - package.yaml
+  - flake.nix  

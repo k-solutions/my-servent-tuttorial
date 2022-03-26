@@ -1,0 +1,89 @@
+name:                my-servant-tut
+version:             0.1.0.0
+github:              "githubuser/my-servant-tut"
+license:             BSD3
+author:              "Author name here"
+maintainer:          "example@example.com"
+copyright:           "2021 Author name here"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description: Please see the README on GitHub at <https://github.com/githubuser/my-servant-tut#readme>
+
+dependencies:
+- base >= 4.7 && < 10 
+- aeson
+- servant-server >= 0.18.3 && < 0.19
+- servant-auth >= 0.4.0
+- servant-auth-server >= 0.4.6  
+- servant-client  
+- servant-elm
+- wai
+- wai-extra
+- fast-logger
+- data-default  
+- warp
+- text
+- bytestring
+- containers  
+- cookie
+- http-client
+- sqlite-simple
+- postgresql-simple
+- resource-pool  
+- mtl
+- time
+
+default-extensions:
+- DataKinds
+- TypeOperators  
+- OverloadedStrings  
+- DeriveGeneric
+
+ghc-options:
+- -Wall
+- -Wcompat
+- -Widentities
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wpartial-fields
+- -Wredundant-constraints
+
+library:
+  source-dirs: src
+
+executables:
+  my-servant-tut-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - base
+    - my-servant-tut
+
+tests:
+  my-servant-tut-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - base
+    - my-servant-tut
+    - hspec
+    - hspec-wai
+    - hspec-wai-json
+    - aeson

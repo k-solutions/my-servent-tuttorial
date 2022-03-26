@@ -1,0 +1,62 @@
+{
+    "haskell-language-server": {
+        "branch": "master",
+        "description": "Official haskell ide support via language server (LSP). Successor of ghcide & haskell-ide-engine.",
+        "homepage": "",
+        "owner": "haskell",
+        "repo": "haskell-language-server",
+        "rev": "b35420203b5627585afbd27aac5b3cdb4c9d0b84",
+        "sha256": "0sr8raq1dl8568rhihlwypl08l1aakjyaka455f016nvqfnjiyin",
+        "type": "tarball",
+        "url": "https://github.com/haskell/haskell-language-server/archive/b35420203b5627585afbd27aac5b3cdb4c9d0b84.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "haskellNix": {
+        "branch": "master",
+        "description": "Alternative Haskell Infrastructure for Nixpkgs",
+        "homepage": "https://input-output-hk.github.io/haskell.nix",
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "rev": "ad911d168d945340eb2fc82004e59dc17b2326ce",
+        "sha256": "1nymx6pzh44ncgggi4lmkj13h9izxhxz6ms8fh1hr28syhkiy9iz",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/haskell.nix/archive/ad911d168d945340eb2fc82004e59dc17b2326ce.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "implicit-hie": {
+        "branch": "master",
+        "description": "Auto generate a stack or cabal multi component hie.yaml file",
+        "homepage": "",
+        "owner": "Avi-D-coder",
+        "repo": "implicit-hie",
+        "rev": "ec43355a08260bfd7f93d6f417161fc07da1a777",
+        "sha256": "1vcc4icy620zmq44ypycnvcmg1fpmdc6frdncd21amc4nqdzakcx",
+        "type": "tarball",
+        "url": "https://github.com/Avi-D-coder/implicit-hie/archive/ec43355a08260bfd7f93d6f417161fc07da1a777.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "5830a4dd348d77e39a0f3c4c762ff2663b602d4c",
+        "sha256": "1d3lsrqvci4qz2hwjrcnd8h5vfkg8aypq3sjd4g3izbc8frwz5sm",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/5830a4dd348d77e39a0f3c4c762ff2663b602d4c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "release-20.03",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "eb73405ecceb1dc505b7cbbd234f8f94165e2696",
+        "sha256": "06k21wbyhhvq2f1xczszh3c2934p0m02by3l2ixvd6nkwrqklax7",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/eb73405ecceb1dc505b7cbbd234f8f94165e2696.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
